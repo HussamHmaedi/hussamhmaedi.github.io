@@ -1659,3 +1659,30 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* === Vertix IT Accent Color Override === */
+
+/* Logo circle */
+#header .logo {
+	border-color: #2196f3 !important;
+}
+
+/* Section titles underline */
+h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+	border-bottom-color: #2196f3 !important;
+}
+
+/* Navigation border */
+#header nav ul {
+	border-color: #2196f3 !important;
+}
+
+#header nav ul li {
+	border-left-color: #2196f3 !important;
+}
+
+/* Primary buttons */
+.button.primary {
+	background-color: #2196f3 !important;
+	color: #ffffff !important;
+}
