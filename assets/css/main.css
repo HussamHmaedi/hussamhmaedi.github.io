@@ -1279,7 +1279,7 @@ input, select, textarea {
 				left: calc(50% - 1px);
 				width: 1px;
 				height: calc(3.5rem + 1px);
-				background: #ffffff;
+				background: #0077b6;
 			}
 
 		#header > :first-child {
@@ -1322,7 +1322,7 @@ input, select, textarea {
 
 		#header .content {
 			border-style: solid;
-			border-color: #ffffff;
+			border-color: #0077b6;
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
@@ -1404,7 +1404,7 @@ input, select, textarea {
 			left: calc(50% - 1px);
 			width: 1px;
 			height: 100%;
-			background: #ffffff;
+			background: #0077b6;
 		}
 
 		#header nav.use-middle ul li.is-middle {
@@ -1706,6 +1706,7 @@ h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 	background-color: #2196f3 !important;
 	color: #ffffff !important;
 }
+
 
 
 
