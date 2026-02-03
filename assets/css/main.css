@@ -1290,14 +1290,21 @@ input, select, textarea {
 				display: none;
 			}
 
-		#header .logo {
-	width: 7rem;
-	height: 7rem;
-	border: none;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+#header .logo {
+	width: 14rem;        /* حجم الشعار */
+	height: auto;
+	border: none;        /* إلغاء الدائرة */
+	border-radius: 0;
+	margin-bottom: 1.5rem;
 }
+
+
+#header .logo img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
 
 #header .logo img {
 	max-width: 100%;
@@ -1694,4 +1701,5 @@ h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 	background-color: #2196f3 !important;
 	color: #ffffff !important;
 }
+
 
