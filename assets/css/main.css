@@ -1291,19 +1291,21 @@ input, select, textarea {
 			}
 
 #header .logo {
-	width: 14rem;        /* حجم الشعار */
-	height: auto;
-	border: none;        /* إلغاء الدائرة */
-	border-radius: 0;
-	margin-bottom: 1.5rem;
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    line-height: normal;
+    padding: 0;
 }
-
 
 #header .logo img {
-	width: 100%;
-	height: auto;
-	display: block;
+    width: 280px;      /* حجم الشعار الأساسي */
+    max-width: 90vw;   /* يحميه على الشاشات الصغيرة */
+    height: auto;
+    display: block;
 }
+
 
 
 #header .logo img {
@@ -1701,5 +1703,6 @@ h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 	background-color: #2196f3 !important;
 	color: #ffffff !important;
 }
+
 
 
